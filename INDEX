@@ -1,0 +1,19 @@
+aphids                  Data on the rate of infection of tobacco
+                        plants by a virus spread by aphids.
+bootcomp                Perform a bootstrap test for the number of
+                        components in a mixture of regressions.
+cband                   Calculate confidence and prediction bands for
+                        mixtures of one-variable regressions.
+covmix                  Calculate the covariance matrix of the
+                        parameter estimates for a mixture of
+                        regressions.
+mixreg                  Fit a mixture of linear regressions.
+plot.cband              Plot confidence bands for a mixture of
+                        regressions.
+plot.mresid             Plot residuals for a fitted mixture of linear
+                        regressions.
+qq.mix                  Draw a normal quantile-quantile plot of the
+                        residuals from a fitted mixture of linear
+                        regressions.
+resid.mix               Calculate the residuals of a mixture of linear
+                        regressions.
