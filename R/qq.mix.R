@@ -16,7 +16,7 @@ qq.mix <- function(object,xlim=NULL,ylim=NULL,shape='disc',ngon=20,size=1,...)
 	if(is.null(ylim)) ylim <- range(resid)
 	plot(x,resid,type='n',xlim=xlim,ylim=ylim,
              xlab='normal quantiles',ylab='empirical quantiles')
-	uin  <- par()$uin # user units per inch
+	uin  <- par.uin() # user units per inch
 	if(ishape==1) {
 		phi <- c(seq(0,2*pi,length=ngon),0)
 		scale <- 0.03*size/uin

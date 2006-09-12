@@ -1,5 +1,14 @@
- Version data: 20 March 2004
- This version supecedes the version dated 6 June 2001
+ Version date: 12 September 2006
+ This version supecedes the version dated 20 March 2004
+
+                       *****************************
+
+ The changes from the version dated 20 March 2004 consist in fixing
+ a bug drawn to my attention by Bettina Gruen. This bug involved the
+ use of par()$uin, a hold-over from the Splus version of the package
+ which does not exist in R.  Ms. Gruen provided a fix for the bug ---
+ based on a function par.uin() --- which is now incorporated into
+ the package.
 
                        *****************************
 

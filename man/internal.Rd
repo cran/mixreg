@@ -9,6 +9,7 @@
 \alias{info1}
 \alias{info2}
 \alias{init.rand}
+\alias{par.uin}
 \alias{simmix}
 
 \title{Internal mixreg functions}
@@ -26,6 +27,7 @@ hatfun(x,g)
 info1(x,y,theta,gma)
 info2(x,y,theta,gma)
 init.rand(x,y,K,intercept)
+par.uin()
 simmix(theta,intercept,x) 
 }
 

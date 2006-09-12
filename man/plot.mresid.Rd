@@ -16,9 +16,9 @@ plot.mresid(x, vs.fit=FALSE, whichx=1, shape="disc",
 \item{x}{
 A list with components containing the residuals, the relevant
 probabilities, the predictors, and the observations, as returned
-by resid.mix.  When plotting against fitted values, it is probably
-better to used the standardized residuals, i.e. resid.mix should
-be called with std=TRUE.
+by \code{resid.mix()}.  When plotting against fitted values,
+it is probably better to used the standardized residuals,
+i.e. \code{resid.mix()} should be called with \code{std=TRUE}.
 }
 \item{vs.fit}{
 Logical argument.  If TRUE the residuals are plotted versus the

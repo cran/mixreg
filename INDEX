@@ -1,5 +1,5 @@
-aphids                  Data on the rate of infection of tobacco
-                        plants by a virus spread by aphids.
+aphids                  Data on the rate of infection of tobacco plants
+                        by a virus spread by aphids.
 bootcomp                Perform a bootstrap test for the number of
                         components in a mixture of regressions.
 cband                   Calculate confidence and prediction bands for

@@ -23,7 +23,7 @@ if(is.null(data.name)) {
 
 # Get starting values; if these are not supplied they are
 # basically generated at random; it is HIGHLY recommended that
-# they be supplied.  I.e. a reasonable starting guess is ususally
+# they be supplied.  I.e. a reasonable starting guess is usually
 # vital for a reasonable outcome.
 K         <- ncomp
 theta.old <- if(is.null(theta.start))
