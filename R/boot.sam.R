@@ -13,9 +13,9 @@ boot.sam <- function(mu,resid,prob) {
 
 nc  <- ncol(mu)
 n   <- nrow(mu)
-if(nc==1) return(drop(mu+sample(resid,n,T)))
+if(nc==1) return(drop(mu+sample(resid,n,TRUE)))
 
-ii  <- sample(1:n,n,T)
+ii  <- sample(1:n,n,TRUE)
 jj  <- apply(prob[ii,],1,function(x,k){sample(1:k,1,prob=x)},nc)
 drop(mu[cbind(1:n,jj)] + resid[cbind(ii,jj)])
 

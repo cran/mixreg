@@ -1,0 +1,97 @@
+
+ Version 0.0-3 4 November 2009:
+
+	Added this ChangeLog.
+
+	Fixed my email address in the DESCRIPTION file.
+
+	Replaced some "T"-s and "F"-s by TRUE-s and FALSE-s.
+
+	Fixed the documentation of a couple of plot methods to refer
+	to these functions as methods rather than referring to them
+	by their full names.
+
+                       *****************************
+
+ Version 0.0-2 12 September 2006:
+
+ The changes from version 0.0-2 consist in fixing a bug drawn to my
+ attention by Bettina Gruen. This bug involved the use of par()$uin, a
+ hold-over from the Splus version of the package which does not exist
+ in R.  Ms. Gruen provided a fix for the bug --- based on a function
+ par.uin() --- which is now incorporated into the package.
+
+                       *****************************
+
+ Version 0.0-1 20 March 2004:
+
+ The changes from the version dated 6 June 2001 consist in mildly
+ re-organizing the structure of the package to make it into a package
+ for R.  Running R's R CMD check on the package turned up a few
+ infelicities which have been corrected.  Mostly this involved
+ adjusting the documentation.
+
+=========================================================================================
+The following material relates to the old Splus version of
+the package
+=========================================================================================
+
+ The changes from the version dated 21 July 1999 to the 
+ version dated 6 June 2001 were:
+
+	(1) In the help file for mixreg() (i.e. mixreg.d)
+	the reference to the Turner paper was changed from
+	``to appear'' to the appropriate reference to Applied
+	Statistics.
+
+                       *****************************
+
+ The changes from the version dated 31 October 1998 to the 
+ version dated 21 July 1999 were:
+
+	(1) The aphids data set was adjusted to make the response
+	equal to the raw counts of infected plants, rather than
+	the percentage.
+
+	The name of the response was therefore changed from
+	``inf.rate'' to ``n.inf''.  This change is also reflected
+	in the documentation files.
+
+                       *****************************
+
+ The changes from the version dated 19 October 1998 to the 
+ version dated 31 October 1998 were:
+
+	(1) The package has been adjusted slightly so that it
+        can easily be installed as a section of a library.
+
+                       *****************************
+
+ The changes from the version dated 1 October 1998 to the 
+ version dated 19 October 1998 were:
+
+	(1) The utility function dir.sum() which was missing from
+	the package is now included.
+ 
+                       *****************************
+
+ The changes from the version dated 3 September 1998 to the
+ version dated 1 October 1998 were:
+
+	(1) Functions resid.mix, plot.mresid and qq.mix are now
+	included to calculate and plot appropriately residuals from
+	mixtures of regressions.
+
+	(2) The function mixreg now returns the AIC value for
+	the fitted model.
+
+	(3) The function bootcomp now takes an argument ncincr
+	to enable the testing of H_0: number of components = ncomp
+	versus H_1: number of components = ncomp + ncincr.
+
+	(4) The function bootcomp now returns vectors consisting of
+	an AIC value for each of the bootstrap fits that it performs.
+
+	(5) Error trapping has been improved in the function
+	bootcomp, so that a condition which previously caused it to
+	crash no longer does so.

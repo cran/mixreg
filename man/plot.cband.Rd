@@ -8,7 +8,7 @@ Plots the fitted lines and confidence and prediction bands as
 calculated by cband, for a mixture of regressions on one variable.
 }
 \usage{
-plot.cband(x, cbands=TRUE, pbands=TRUE, xlab=NULL, ylab=NULL,
+\method{plot}{cband}(x, cbands=TRUE, pbands=TRUE, xlab=NULL, ylab=NULL,
            main=NULL, \dots)
 }
 \arguments{
