@@ -1,3 +1,11 @@
+ Version 0.0-4 4 November 2011
+
+	Added a namespace.
+
+	Added a startup message.
+
+	Changed the form of the file in the "data" directory
+	from *.R to *.rda.
 
  Version 0.0-3 4 November 2009:
 
