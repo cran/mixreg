@@ -5,11 +5,11 @@ Data on the rate of infection of tobacco plants by a virus
 spread by aphids.
 }
 \description{
-The \code{aphids} data frame has 51 rows and 2 columns.
-These correspond to 51 independent experiments in which varying
-numbers of aphids were released in a flight chamber containing
-12 infected and 69 healthy tobacco plants.  The resulting number
-of infected plants was recorded.
+The \code{aphids} data frame has 51 rows and 2 columns.  These
+correspond to 51 independent experiments in which varying numbers of
+aphids were released in a flight chamber containing 12 infected and
+69 healthy tobacco plants.  The resulting number of infected plants
+(amongst those previously healthy) was recorded.
 }
 \usage{
 data(aphids)
@@ -24,6 +24,10 @@ each instance
 \item{\code{n.inf}}{
 the resulting number (out of a possible 69) of infected plants
 }}}
+\author{Rolf Turner
+  \email{r.turner@auckland.ac.nz}
+  \url{http://www.stat.auckland.ac.nz/~rolf}
+}
 \source{
 These data appear courtesy of Gilles Boiteau and George Tai of the
 Potato Research Centre, Agriculture and Agri-Food Canada,

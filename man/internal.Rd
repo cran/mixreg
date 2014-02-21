@@ -34,4 +34,8 @@ simmix(theta,intercept,x)
 \details{
   These are usually not to be called by the user.
 }
+\author{Rolf Turner
+  \email{r.turner@auckland.ac.nz}
+  \url{http://www.stat.auckland.ac.nz/~rolf}
+}
 \keyword{internal}

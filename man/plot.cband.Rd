@@ -44,6 +44,10 @@ A plot is produced in whatever device is currently open.
 This function is a "method" for plot.  Note that a simple plot
 of the fit may be produced by specifying both cbands=FALSE and pbands=FALSE.
 }
+\author{Rolf Turner
+  \email{r.turner@auckland.ac.nz}
+  \url{http://www.stat.auckland.ac.nz/~rolf}
+}
 \seealso{
 \link{bootcomp}, \link{cband}, \link{covmix}, \link{mixreg},
 \link{plot.mresid}, \link{qq.mix}, \link{resid.mix}

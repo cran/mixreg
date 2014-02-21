@@ -116,6 +116,10 @@ Even if eq.var is TRUE, each component of theta still has its own sigsq
 component.  The values of these will all be equal however if eq.var
 is TRUE.
 }
+\author{Rolf Turner
+  \email{r.turner@auckland.ac.nz}
+  \url{http://www.stat.auckland.ac.nz/~rolf}
+}
 \references{
 Turner, T. R.  (2000) Estimating the rate of spread of a viral infection
 of potato plants via mixtures of regressions.  Appl. Statist. vol. 49,

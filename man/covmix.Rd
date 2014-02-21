@@ -39,6 +39,10 @@ taken in the order beta.1, lambda.1, \dots, beta.K, sigsq.
 In the foregoing beta refers to the linear coefficients, sigsq to
 the variance, and lambda to the mixing probability.
 }
+\author{Rolf Turner
+  \email{r.turner@auckland.ac.nz}
+  \url{http://www.stat.auckland.ac.nz/~rolf}
+}
 \references{
 Turner, T. R.  (2000) Estimating the rate of spread of a viral infection
 of potato plants via mixtures of regressions.  Appl. Statist. vol. 49,

@@ -1,3 +1,16 @@
+ Version 0.0-5 21 February 2014
+
+ 	Fixed my web page address in the DESCRIPTION file.
+
+	Removed junk files that were lurking in the "data"
+	directory (thanks to a prompt from Kurt Hornik).
+
+	Changed ".onLoad()" to ".onAttach()" in First.R.
+
+	Effected lazy loading of data.
+
+	Tweaked the documentation of the "aphids" data set.
+
  Version 0.0-4 4 November 2011
 
 	Added a namespace.
