@@ -53,7 +53,7 @@ EM algorithm, J. R. Statist. Soc. B, vol. 44, pp. 226 -- 233, 1982.
 }
 \seealso{
 \link{bootcomp}, \link{cband}, \link{mixreg}, \link{plot.cband},
-\link{plot.mresid}, \link{qq.mix}, \link{resid.mix}
+\link{plot.mresid}, \link{qqMix}, \link{residMix}
 }
 \examples{
 #See \link{mixreg} for examples.

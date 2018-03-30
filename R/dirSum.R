@@ -1,6 +1,6 @@
-dir.sum <- function(...)
+dirSum <- function(...)
 {
-# Function dir.sum.  To construct the direct sum of an arbitrary
+# Function dirSum.  To construct the direct sum of an arbitrary
 # number of matrices.
 	x <- list(...)
 	x <- x[!sapply(x, is.null)]

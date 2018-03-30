@@ -1,4 +1,4 @@
-resid.mix <- function(object,x,y,std=FALSE)
+residMix <- function(object,x,y,std=FALSE)
 {
 	int <- object$intercept
 	if(int) x <- cbind(1,x)

@@ -1,6 +1,6 @@
-init.rand <- function(x,y,K,intercept) {
+initRand <- function(x,y,K,intercept) {
 #
-# Function init.rand.  To form starting values for the EM
+# Function initRand.  To form starting values for the EM
 # algorithm, randomly.
 #
 

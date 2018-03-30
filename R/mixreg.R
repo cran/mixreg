@@ -27,7 +27,7 @@ if(is.null(data.name)) {
 # vital for a reasonable outcome.
 K         <- ncomp
 theta.old <- if(is.null(theta.start))
-		init.rand(x,y,K,intercept) else theta.start
+		initRand(x,y,K,intercept) else theta.start
 dimsok <- all(unlist(lapply(theta.old,function(x){length(x$beta)}))==ncol(x))
 if(!dimsok) {
 	cat('Starting values for beta are of wrong length for\n')
@@ -79,7 +79,7 @@ repeat {
 				cat('Trying a new starting configuration.\n')
 				ntry <- ntry+1
 				em.step <- 0
-				theta.old <- init.rand(x,y,K,intercept)
+				theta.old <- initRand(x,y,K,intercept)
 				break
 			}
 			else {

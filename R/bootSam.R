@@ -1,6 +1,6 @@
-boot.sam <- function(mu,resid,prob) {
+bootSam <- function(mu,resid,prob) {
 #
-# Function boot.sam to draw a bootstrap sample from the (multiple)
+# Function bootSam to draw a bootstrap sample from the (multiple)
 # residuals of a mixture of regressions model.
 #
 # Think of the model as follows:  Marbles are labelled 1, 2, ..., n;

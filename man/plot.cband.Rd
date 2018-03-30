@@ -50,7 +50,7 @@ of the fit may be produced by specifying both cbands=FALSE and pbands=FALSE.
 }
 \seealso{
 \link{bootcomp}, \link{cband}, \link{covmix}, \link{mixreg},
-\link{plot.mresid}, \link{qq.mix}, \link{resid.mix}
+\link{plot.mresid}, \link{qqMix}, \link{residMix}
 }
 \examples{
 #See \link{mixreg} for examples.

@@ -122,13 +122,13 @@ of the model whence the procedure is semi-parametric.
   \url{http://www.stat.auckland.ac.nz/~rolf}
 }
 \references{
-Turner, T. R.  Estimating the rate of spread of a viral infection
-of potato plants via mixtures of regressions.  Submitted for
-publication, 1998.
+Turner, T. R.  (2000) Estimating the rate of spread of a viral infection
+of potato plants via mixtures of regressions.  Appl. Statist. vol. 49,
+Part 3, pp. 371 -- 384.
 }
 \seealso{
 \link{cband}, \link{covmix}, \link{mixreg}, \link{plot.cband},
-\link{plot.mresid}, \link{qq.mix}, \link{resid.mix}
+\link{plot.mresid}, \link{qqMix}, \link{residMix}
 }
 \examples{
 TS1 <- list(list(beta=c(3.0,0.1),sigsq=16,lambda=0.5),

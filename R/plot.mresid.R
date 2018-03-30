@@ -15,7 +15,7 @@ plot.mresid <- function(x,vs.fit=FALSE,whichx=1,shape='disc',
 	if(is.na(ishape))
 		stop(paste('Shape ',shape,' not recognized.',sep=''))
 	plot(x,resid,type='n',xlab=xlab,ylab='residuals')
-        uin <- par.uin()
+        uin <- parUin()
 
 	if(ishape==1) {
 		phi <- c(seq(0,2*pi,length=ngon),0)

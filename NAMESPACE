@@ -1,3 +1,10 @@
 
 # Export everything.
 exportPattern("*")
+S3method(plot,mresid)
+S3method(plot,cband)
+importFrom("graphics", "lines", "par", "plot", "points", "polygon",
+             "title")
+importFrom("stats", "coef", "dnorm", "fitted", "lm", "nlm", "qnorm",
+             "rnorm")
+

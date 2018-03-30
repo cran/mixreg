@@ -8,9 +8,9 @@ Estimates the parameters for a mixture of linear regressions, assuming
 Gaussian errors, using the EM algorithm.
 }
 \usage{
-mixreg(x, y, ncomp=2, intercept=TRUE, eq.var=FALSE,
-       theta.start=NULL, itmax=1000, eps=1e-06, verb=TRUE,
-       digits=7, max.try=5, data.name=NULL)
+   mixreg(x, y, ncomp = 2, intercept = TRUE, eq.var = FALSE,
+   theta.start = NULL, itmax = 1000, eps = 1e-06, verb = TRUE,
+   digits = 7, max.try = 5, data.name = NULL)
 }
 \arguments{
 \item{x}{
@@ -42,6 +42,10 @@ to have all the starting values of sigsq equal, but this is not
 strictly necessary.  If theta.start is not specified, starting
 values are generated randomly.  This is NOT recommended.
 }
+\item{data.name}{
+A character string specifying a name associated with the data
+being analyzed, for identification purposes.
+}
 \item{itmax}{
 The maximum number of EM steps to be undertaken.
 }
@@ -63,10 +67,6 @@ If the algorithm encounters a singularity in the likelihood
 (as may occur when eq.var is FALSE) the algorithm is restarted
 using new (randomly generated) starting values.  The restart
 is attempted a maximum of max.try times.
-}
-\item{data.name}{
-A character string specifying a name associated with the data
-being analyzed, for identification purposes.
 }}
 \value{
 A list, of class mixreg, with components
@@ -131,7 +131,7 @@ vol. 39, pp. 1--22, 1977.
 }
 \seealso{
 \link{bootcomp}, \link{cband}, \link{covmix}, \link{plot.cband},
-\link{plot.mresid}, \link{qq.mix}, \link{resid.mix}
+\link{plot.mresid}, \link{qqMix}, \link{residMix}
 }
 \examples{
 data(aphids)
@@ -143,10 +143,10 @@ fit <- mixreg(x,y,ncomp=2,theta.start=TS,data.name='aphids')
 cvm <- covmix(fit,x,y)
 cbd <- cband(fit,cvm,x,y)
 plot(cbd)
-r <- resid.mix(fit,x,y)
+r <- residMix(fit,x,y)
 plot(r)
-r <- resid.mix(fit,x,y,std=TRUE)
-qq.mix(r)
+r <- residMix(fit,x,y,std=TRUE)
+qqMix(r)
 }
 % Converted by Sd2Rd version 1.21.
 \keyword{models}

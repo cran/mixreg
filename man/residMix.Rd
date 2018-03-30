@@ -1,5 +1,5 @@
-\name{resid.mix}
-\alias{resid.mix}
+\name{residMix}
+\alias{residMix}
 \title{
 Calculate the residuals of a mixture of linear regressions.
 }
@@ -9,7 +9,7 @@ and the matrix of probabilities that each observation was generated
 by each component.
 }
 \usage{
-resid.mix(object, x, y, std=FALSE)
+residMix(object, x, y, std=FALSE)
 }
 \arguments{
 \item{object}{
@@ -40,10 +40,10 @@ The matrix of probabilities that each observation was generated
 by each component
 }
 \item{x}{
-The x argument of the call to resid.mix
+The x argument of the call to residMix
 }
 \item{y}{
-The y argument of the call to resid.mix
+The y argument of the call to residMix
 }}
 \details{
 The calculation of the estimated standard deviations of the
@@ -63,7 +63,7 @@ Part 3, pp. 371 -- 384.
 }
 \seealso{
 \link{bootcomp}, \link{cband}, \link{covmix}, \link{mixreg},
-\link{plot.cband}, \link{plot.mresid}, \link{qq.mix}
+\link{plot.cband}, \link{plot.mresid}, \link{qqMix}
 }
 \examples{
 #See \link{mixreg} for examples.

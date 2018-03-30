@@ -90,7 +90,7 @@ Part 3, pp. 371 -- 384.
 }
 \seealso{
 \link{bootcomp}, \link{covmix}, \link{mixreg}, \link{plot.cband},
-\link{plot.mresid}, \link{qq.mix}, \link{resid.mix}
+\link{plot.mresid}, \link{qqMix}, \link{residMix}
 }
 \examples{
 #See \link{mixreg} for examples.

@@ -21,14 +21,14 @@ for(k in 1:K) {
 	tmp2 <- -as.matrix(0.5*sum(gma[,k])/vk**2)
 # lambda-lambda:
 	tmp3 <- if(k < K) -as.matrix((sum(gma[,k])/lk**2 + cK)) else NULL
-	tmp[[k]] <- dir.sum(tmp1,tmp2,tmp3)
+	tmp[[k]] <- dirSum(tmp1,tmp2,tmp3)
 }
 #
 # Note all ``cross terms'' are 0; beta-lambda and sigsq-lambda obviously
 # so; sigsq-beta because the expression is essentially the sum of
 # the weights times x times the residuals which is (linear algebra) 0.
 #
-rslt <- dir.sum(tmp)
+rslt <- dirSum(tmp)
 
 ind <- (ncol(x)+2)*(1:(K-1))
 n   <- length(ind)

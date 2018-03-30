@@ -44,7 +44,7 @@ k <- 0
 for(i in 1:nboot) {
 	repeat {
 		save.seed <- .Random.seed
-		yboot <- if(sem.par) boot.sam(mu,resid,prob)
+		yboot <- if(sem.par) bootSam(mu,resid,prob)
 			        else simmix(theta1,intercept,x)$y
 		tmp <- mixreg(x,yboot,ncomp=ncomp,theta.start=theta1,
                               intercept=intercept,verb=verb,...)
