@@ -5,28 +5,28 @@ Data on the rate of infection of tobacco plants by a virus
 spread by aphids.
 }
 \description{
-The \code{aphids} data frame has 51 rows and 2 columns.  These
-correspond to 51 independent experiments in which varying numbers of
-aphids were released in a flight chamber containing 12 infected and
-69 healthy tobacco plants.  The resulting number of infected plants
-(amongst those previously healthy) was recorded.
+The data set \code{aphids} is a data frame with 51 rows and
+2 columns.  The rows correspond to 51 independent experiments
+in which varying numbers of aphids were released in a flight
+chamber containing 12 infected and 69 healthy tobacco plants.
+The resulting number of infected plants (amongst those previously
+healthy) was recorded.
 }
 \usage{
-data(aphids)
+aphids
 }
 \format{
-This data frame contains the following columns:
+The data frame \code{aphids} contains the following columns:
 \describe{
-\item{\code{n.aphids}}{
-the number of aphids released in the flight chamber in
-each instance
+\item{\code{aphRel}}{
+The number of aphids released in the flight chamber in
+each instance.
 }
-\item{\code{n.inf}}{
-the resulting number (out of a possible 69) of infected plants
+\item{\code{plntsInf}}{
+The resulting number (out of a possible 69) of infected plants
 }}}
 \author{Rolf Turner
   \email{r.turner@auckland.ac.nz}
-  \url{http://www.stat.auckland.ac.nz/~rolf}
 }
 \source{
 These data appear courtesy of Gilles Boiteau and George Tai of the
@@ -40,11 +40,11 @@ Boiteau, G., M. Singh, R. P. Singh, G. C. C. Tai, and T. R. Turner
 from infected to healthy plants under laboratory conditions.  Potato
 Research, vol. 41, pp. 335 -- 344.
 }
-\section{DETERMINATION OF INFECTION}{
-After 24 hours, the flight chamber was fumigated to kill the aphids, and the
-previously healthy plants were moved to a greenhouse and monitored to
-detect symptoms of infection.  The number of plants displaying such
-symptons was recorded.
+\section{Determination of Infection Count}{
+After 24 hours from the time that the aphids were released, the
+flight chamber was fumigated to kill the aphids, and the previously
+healthy plants were moved to a greenhouse and monitored to detect
+symptoms of infection.  The number of plants displaying such symptoms
+was recorded.
 }
 \keyword{datasets}
-% Converted by Sd2Rd version 1.21.

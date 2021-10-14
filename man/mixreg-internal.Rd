@@ -2,15 +2,17 @@
 \alias{aux1}
 \alias{aux2}
 \alias{aux3}
-\alias{bootSam}
 \alias{dirSum}
+\alias{dist2d}
+\alias{distMat}
+\alias{cint}
 \alias{gfun}
 \alias{hatfun}
 \alias{info1}
 \alias{info2}
 \alias{initRand}
+\alias{mixregEngine}
 \alias{parUin}
-\alias{simmix}
 
 \title{Internal mixreg functions}
 \description{
@@ -20,15 +22,19 @@
 aux1(gma,k,l)
 aux2(t11,t12,t13,t21,t22,t23,t31,t32,t33)
 aux3(m,ind)
-bootSam(mu,resid,prob)
 dirSum(...)
-gfun(x,y,theta)
+dist2d(a,b,c)
+distMat(x,y,theta)
+cint(object,alpha=0.05,MC=FALSE,plot=FALSE,...)
+gfun(xm,y,theta)
 hatfun(x,g)
 info1(x,y,theta,gma)
 info2(x,y,theta,gma)
-initRand(x,y,K,intercept)
+initRand(fmla,data,K,seed=NULL)
+mixregEngine(fmla,data,ncomp,eqVar,thetaStart,itmax,
+             eps,verb,digits,maxTry,seed,covMat,MC,cawl,
+             warn,...)
 parUin()
-simmix(theta,intercept,x) 
 }
 
 \details{
@@ -36,6 +42,5 @@ simmix(theta,intercept,x)
 }
 \author{Rolf Turner
   \email{r.turner@auckland.ac.nz}
-  \url{http://www.stat.auckland.ac.nz/~rolf}
 }
 \keyword{internal}

@@ -1,7 +1,6 @@
 info1 <- function(x,y,theta,gma) {
 #
-# Note: The matrix x includes the column of 1's corresponding
-# to the intercept term if an intercept is being fitted.
+# Note: x is the model matrix, y is the response.
 #
 tmp <- list()
 K   <- length(theta)
